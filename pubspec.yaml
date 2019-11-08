@@ -1,6 +1,6 @@
 name: typed_date_time
 description: Adds additional types for Local and UTC Dates and DateTimes.
-version: 1.0.0
+version: 0.1.0
 author: Michael Schoonmaker <schoon@actionsprout.com>
 
 environment:
