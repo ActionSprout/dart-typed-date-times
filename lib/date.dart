@@ -131,9 +131,10 @@ class LocalDate {
     return !(this < other);
   }
 
-  /// Returns a value unique to this date.
+  /// Returns a value unique to this date as long as the year is
+  /// within [0..2^23].
   @override
-  int get hashCode => year << 9 & month << 5 & day;
+  int get hashCode => (year << 9) | (month << 5) | day;
 
   /// Returns the semantically closest [DateTime]: one with the same day,
   /// month, and year, with the remaining values zeroed out.
