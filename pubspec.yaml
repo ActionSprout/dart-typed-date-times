@@ -1,6 +1,6 @@
 name: typed_date_time
 description: Adds additional types for Local and UTC Dates and DateTimes.
-version: 0.1.0
+version: 0.1.1
 author: Michael Schoonmaker <schoon@actionsprout.com>
 homepage: https://github.com/ActionSprout/dart-typed-date-times
 
