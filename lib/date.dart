@@ -67,7 +67,7 @@ class LocalDate {
   /// Returns the number of days in between this date and the current date.
   /// This value will be positive if the date is in the past, and negative
   /// if this date is in the future.
-  int get daysSince => today.toDateTime().difference(toDateTime()).inDays;
+  int get daysSince => (today.toDateTime().difference(toDateTime()).inHours / 24).round();
 
   /// Returns the number of days in between the current date and this date.
   /// This value will be positive if the date is in the future, and negative
